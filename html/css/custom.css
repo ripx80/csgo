@@ -1,0 +1,48 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.content{
+    padding:30px;    
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+#csgo{
+    padding-top:25px;
+    padding-bottom:35px;
+    color: #f4f6f6;
+}
+
+.no-bg-img{
+    background-color:white;
+    padding:30px;    
+    outline: 2px solid #3498db;
+}
+
+html, body {
+    background: url('../imgs/satelite.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#map{
+    height:800px;
+}
+
